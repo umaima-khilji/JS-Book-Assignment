@@ -67,9 +67,7 @@ var paragraph = document.createElement("p");
 paragraph.textContent = "Yah! I can write HTML content through JS.";
 document.body.appendChild(paragraph);
 
-var para = document.createElement("p");
-para.textContent = "///////////////////////////";
-document.body.appendChild(para);
+document.write("/////////////////////");
 
 
 // var cardText = document.createElement('p')
@@ -117,12 +115,10 @@ document.body.appendChild(dataType);
 
 
 //4.
- // visitor information 
  var visitorName = "John Doe";
  var productTitle = "T-shirt";
  var quantity = 5;
 
- // to display the message in the browser
    var message = visitorName + " ordered " + quantity + " " + productTitle + "(s) on XYZ Clothing store.";
    document.getElementById("orderMessage").textContent = message;
 
@@ -818,7 +814,7 @@ document.write("//////////////////////////////// <br> <br>" );
 // var result = calculate(number1, number2, operator);
 // alert("The result is: " + result);
 
-/////////
+//////////////////////*******///////////////////////////////
 //IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITION
 
 // ///1.
@@ -937,7 +933,7 @@ document.write("//////////////////////////////// <br> <br>" );
 //     console.log("Invalid time format. Please enter a time in 24-hour clock format.");
 // }
 
-
+//////////////////////*******///////////////////////////////
 //ARRAY
 //1.
 var studentNames = [];
@@ -955,7 +951,7 @@ var numbersArray = [1, 2, 3, 4, 5];
 var booleanArray = [true, false, true, false];
 
 //6.
-var mixedArray = [1, "Hello", true, null, { name: "umaima", age: 21 }];
+var mixedArray = [7, "Heyyy", true, false , null, { name: "umaima", age: 21 }];
 
 //7.
 var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
