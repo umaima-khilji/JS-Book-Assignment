@@ -9,9 +9,8 @@
 <!-- Q7. -->
 <script>
     //a.Head:
-//     function showAlert() {
 //     alert("a.Head");
-//   }
+
 </script>
 <style>
     /* Q6 */
@@ -27,23 +26,27 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+#formData {
+      margin-top: 20px;
+      border: 1px solid black;
+      padding: 10px;
+    }
 
 </style>
 <body>
     <script>
 // Q7.
 // b. Body (before your page's HTML):
-//     function showAlert() {
 //     alert("c. Body (before your page's HTML)");
-//   }
+
     </script>
     
     
 <!-- Q6 -->
-    <h1>Q6. Use of alert in html/CSS</h1>
+    <!-- <h1>Q6. Use of alert in html/CSS</h1>
     
     <button onclick="showAlert()">Click Me</button>
-    <p>/////////////////////////////////</p>
+    <p>/////////////////////////////////</p> -->
     <!-- ////// -->
 
      <!-- variables for number Q2 -->
@@ -62,14 +65,75 @@ button {
     <p id="rule4"></p>
     <p>///////////////////////////////////</p>
 
+    <!-- //EVENTS  1. -->
+<a href="#" onclick="showAlert()">Click me to show alert</a>
+
+<!-- 2. -->
+<!-- 
+<img width="20%" src="./img 1.webp" onclick="showMessage('Thanks for purchasing phone from us')">
+<img src="./img 2.jpg" onclick="showMessage('Thanks for purchasing phone from us')">
+<img   width="20%"src="img 3.jpg" onclick="showMessage('Thanks for purchasing phone from us')"> -->
+
+<!-- 3. -->
+<table id="studentTable">
+  <thead>
+    <tr>
+      <th>index</th>
+      <th>Name </th>
+      <th>Class</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>Jhone</td>
+      <td>10</td>
+      <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Doe</td>
+      <td>9</td>
+      <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mark</td>
+      <td>10</td>
+      <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>James</td>
+      <td>8</td>
+      <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+<p>///////////////////////////////////</p>
+<!-- events -->
+<!-- 1. -->
+
+<!-- <form id="signupForm">
+  <label for="name">Name:</label>
+  <input type="text" id="name" required><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" required><br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" required><br>
+
+  <input type="submit" value="Sign Up">
+</form>
+
+<div id="formData"></div> -->
+
     <script   src="./app.js" ></script>
     <script>
         // Q7.
         // c. Body (inside your page's HTML):
-      //  d. Body (after your page's HTML):
-        //     function showAlert() {
+      //  d. Body (after your page's HTML): 
         //     alert("c. Body (inside your page's HTML) \n d. Body (after your page's HTML) ");
-        //   }
             </script>
 </body>
 </html>
